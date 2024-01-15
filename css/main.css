@@ -11,12 +11,12 @@ header *{
 
 div.gallery-primary ul{
     overflow: hidden;
+    padding: 1rem 0 0 1rem;
 }
 
 div.gallery-primary{ /* conteneur */
     max-width: 120rem;
     margin: 5rem auto;
-    padding: 1rem 0 0 1rem;
     background-color: #fff;
 }
 
