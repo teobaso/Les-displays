@@ -1,0 +1,73 @@
+/* reset */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&display=swap');
+
+html {
+    /* formater la taile standard de la police de caractères */
+    font-size: 62.5%;
+    /* 16 * 62.5% = 10.000 */
+}
+
+body {
+    font: 1.6rem 'Roboto Slab', sans-serif;
+    /* serif */
+    line-height: 1.6;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    background-color: var(--bgcolor-primary-ff);
+    /* fond arrière-plan */
+    color: var(--bgcolor-default-text);
+    /* couleur du texte */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    /* contexte css */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 300;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #6e65ec;
+}
+
+button {
+    padding: 0;
+    background: transparent;
+    font-size: inherit;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* theme de la page */
+:root {
+    --bgcolor-primary-ff: #2b2a33;
+    --bgcolor-secodary-ff: #42414d;
+    --bgcolor-logo-ff: rgb(236, 36, 18);
+    --bgcolor-default-text: hsl(0, 0%, 100%);
+    --color-section-title: #74b9ff;
+    --color-article-title: hsl(39, 97%, 71%);
+
+}
